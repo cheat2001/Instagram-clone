@@ -5,7 +5,8 @@ import { HomeIcon } from '@heroicons/react/solid'
 
 export default function Header() {
   return (
-        <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
+        <div className="shadow-sm border-b sticky top-0 bg-white">
+            <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
             {/* Left */}
             <div className='cursor-pointer h-24 w-24 relative hidden lg:inline-grid'>
                 <Image src={"https://cdn.pixabay.com/photo/2016/08/15/01/29/instagram-1594387_960_720.png"}
@@ -35,6 +36,7 @@ export default function Header() {
                <PlusCircleIcon className='h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out'/>
                <img className='h-10 rounded-full' src="https://sokchansocheat.web.app/static/media/frame.12c9e2abd37f5f717e64.jpg" alt="" />
             </div>
+        </div>
         </div>
 
   
